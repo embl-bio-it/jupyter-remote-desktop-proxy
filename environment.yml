@@ -2,5 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - jupyter-server-proxy~=4.3.0
-  - jupyterhub-singleuser
+  # Don't install jupyterhub-singleuser as this should match the version used
+  # in the base docker image
+  # - jupyterhub-singleuser
   - pip
