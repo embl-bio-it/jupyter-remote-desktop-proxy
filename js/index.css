@@ -49,6 +49,13 @@ body {
   font-size: 12px;
 }
 
+/* Start of EMBL customization */
+#menu.menu-left {
+    margin-left: 0;
+    margin-right: auto;
+}
+/* End of EMBL customization */
+
 #menu li {
   border-right: 1px var(--jupyter-grey) solid;
   padding: 12px 0px;
